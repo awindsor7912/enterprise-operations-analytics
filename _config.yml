@@ -1,0 +1,38 @@
+title: "Enterprise Operations Analytics"
+description: "A simulated enterprise data platform modeling operations, workforce, assets, and financial activity, designed to support end-to-end SQL analysis and business intelligence workflows."
+baseurl: "/enterprise-operations-analytics"
+url: "https://awindsor7912.github.io"
+
+markdown: kramdown
+theme: minima
+
+plugins:
+  - jekyll-seo-tag
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+navigation:
+  - title: Home
+    url: /
+  - title: Projects
+    url: /#projects
+  - title: Skills
+    url: /#skills
+  - title: Contact
+    url: /#contact
+
+branding:
+  primary: "#0f2747"
+  primary_dark: "#0a1b31"
+  accent: "#2f5d8a"
+  accent_soft: "#eaf1f8"
+  background: "#ffffff"
+  surface: "#f8fafc"
+  border: "#d9e2ec"
+  text: "#142333"
+  muted: "#5b6b7d"
+  success: "#1f6f5f"
